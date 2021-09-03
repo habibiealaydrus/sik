@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: rgb(62, 232, 241);
+  transition: 0.5s;
+  text-decoration: none;
+  color: white;
+}
+.textmenu {
+  text-decoration: none;
+  color: white;
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: rgba(36, 141, 247, 0.841);
+}
+
+.my-container {
+  transition: 0.4s;
+}
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+
+#menu-btn {
+  background-color: rgb(62, 232, 241);
+  color: lightgrey;
+  margin-left: -62px;
+}
+img {
+  border-radius: 50%;
+}
+.status {
+  font-family: "Righteous";
+  margin-bottom: 2%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1% 1% 1% 1%;
+  margin: 1% 1% 1% 1%;
+}
+.info {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.greenbg {
+  background-color: lightgreen;
+}
+.coklat {
+  background-color: chocolate;
+}
+.peach {
+  background-color: peachpuff;
+}
+.pengumuman {
+  background-color: lightpink;
+}
+.users {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 1%;
+  margin-top: 1%;
+}
+.users h1 {
+  color: lightgray;
+}
+.users h5 {
+  color: rgb(8, 136, 230);
+}
+.tableusers {
+  margin-top: 2%;
+}
+.tableusers a {
+  text-decoration: none;
+  color: white;
+}
+.edit {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1%;
+  margin: 1%;
+}
+.buttontext {
+  text-decoration: none;
+  color: white;
+}
+.buttontext:hover {
+  text-decoration: none;
+  color: yellow;
+}
+settingpoli {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
