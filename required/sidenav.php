@@ -17,7 +17,7 @@
     </li>
     <li href="#" class="nav-link">
       <i class="bx bx-clinic"></i>
-      <a class="mx-2 textmenu" href="dashboard.php?menu=pelayanan">Pelayanan</a>
+      <a class="mx-2 textmenu" href="pelayanan/dashboard.php">Pelayanan</a>
     </li>
     <li href="#" class="nav-link">
       <i class='bx bxs-business'></i>

@@ -34,9 +34,6 @@ if ($_SESSION['nama_lengkap'] == '') {
       case "settings":
         include('settings.php');
         break;
-      case "pelayanan":
-        include("pelayanan.php");
-        break;
       case "manajemen":
         include("manajemen.php");
         break;
