@@ -8,6 +8,7 @@ if ($_SESSION['nama_lengkap'] == '') {
   header("location:index.php");
 }
 /*title pengamanan halaman end*/
+include('./konfig/constant.php');
 
 ?>
 <?php include 'required/header.php'; ?>

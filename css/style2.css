@@ -109,8 +109,14 @@ img {
   background-color: white;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 5%;
-  margin: 5%;
+  margin: 1%;
 }
-.layanan {
-  color: green;
+.layanan > button {
+  flex-wrap:wrap;
+  padding: 5%;
+  margin: 1%;
+}
+.layanan > button:hover {
+  background-color: purple;
+  color: black;
 }
